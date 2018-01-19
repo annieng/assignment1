@@ -1,0 +1,113 @@
+body {
+    font: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+a {
+    color: #556863;
+}
+a:hover {
+    color: #BAE0E0;
+    text-decoration: line-through;
+}
+/*navbar styles*/
+.navbar {
+    background-image: url(./navbar-image.jpg);
+    opacity: 0.9;
+    height: 15rem;
+}
+#navbar-items {
+    color: #556863;
+}
+.navbar ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 10rem;
+}
+.index-title {
+    padding-left: 5rem;
+    letter-spacing: 0.5rem;
+    color: #505F5C;
+    
+}
+/*side nav styles*/
+.index-sidenav {
+    background-color: #9bd0cb;
+    opacity: 0.9;
+    display: inline-block;
+    max-width; 100%;
+    color: #556863;
+    float: left;
+    padding-top: 1.5rem;
+}
+#side-nav-list-items {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1rem;
+    width: 15rem;
+    display: block;
+}
+/*background styles*/
+.container-fluid {
+    background-color: #9bd0cb;
+}
+/*vinyl transformation in index*/
+.rotating_vinyl {
+    overflow: hidden;
+    transition-duration: 120s;
+    transition-property: transform;
+    transform-origin: 50% 50%;
+    max-width: 100%;
+    opacity: 0.7;
+    padding-top: 5rem;
+    height: 40rem;
+}
+.rotating_vinyl:hover {
+    transform: rotate(7200deg);
+    transform: rotate(7200deg);
+}
+.index-vinyl-nav {
+    position: absolute;
+    padding-left: 30rem;
+    padding-top: 20rem;
+}
+/*discography styles*/
+img {
+    max-width: 100%;
+    padding: 2rem 4rem 2rem 0rem;
+    display: inline-block;
+    align-content: left;
+}
+#music-title {
+    color: #556863;
+    font-weight: 375;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: left;
+}
+
+/*about page specific styles*/
+#profile1 {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 15rem;
+}
+.bio-text {
+    color: 2E3737;
+    font-weight: 375;
+    padding-top: 10rem;
+}
+
+.about-bio {
+    padding-top: 3.5rem;
+}
+/*tour page styling*/
+#tour-heading {
+    color: #556863;
+    font-weight: 375;
+    padding-top: 3rem;
+}
+
+#tourdates {
+    color: #556863;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
