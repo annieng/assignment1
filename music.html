@@ -14,29 +14,29 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
         crossorigin="anonymous">
     <!-- my styles -->
-    <link rel="stylesheet" type: "text/css" href="./styles.css" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 
 <header>
     <!--navbar-->
-    <div class="navbar">
+    <div class="container-fluid navbar">
         <a id="main-link-to-homepage" href="./index.html">
-        <h1 class="index-title">seb wildblood</h1>
+            <h1 class="index-title">seb wildblood</h1>
         </a>
-        <li id="navbar-items">
-            <ul>
+        <ul id="navbar-items">
+            <li>
                 <a href="https://soundcloud.com/sebwildblood">soundcloud</a>
-            </ul>
-            <ul>
+            </li>
+            <li>
                 <a href="https://open.spotify.com/artist/51Rlwvwkj8L3zakIRr6dUV">spotify</a>
-            </ul>
-            <ul>
+            </li>
+            <li>
                 <a href="https://sebwildblood.bandcamp.com/">bandcamp</a>
-            </ul>
-            <ul>
+            </li>
+            <li>
                 <a href="https://www.discogs.com/artist/3038043-Seb-Wildblood">discogs</a>
-            </ul>
-        </li>
+            </li>
+        </ul>
     </div>
 </header>
 
@@ -44,70 +44,88 @@
     <main class="container-fluid">
         <!--sidenav-->
         <div class="row">
-            <div class="col-3 index-sidenav">
-                <li class="index-sidenav">
-                    <ul id="side-nav-list-items">
+            <div class="col-md-6 col-lg-3 col-sm-12 col-12 index-sidenav">
+                <ul class="index-sidenav">
+                    <li id="side-nav-list-items">
                         <a href="./index.html">home</a>
-                    </ul>
-                    <ul id="side-nav-list-items">
+                    </li>
+                    <li id="side-nav-list-items">
                         <a href="./about.html">about</a>
-                    </ul>
-                    <ul id="side-nav-list-items">
+                    </li>
+                    <li id="side-nav-list-items">
                         <a href="./music.html">discography</a>
-                    </ul>
-                    <ul id="side-nav-list-items">
+                    </li>
+                    <li id="side-nav-list-items">
                         <a href="./tours.html">tour</a>
-                    </ul>
-                </li>
+                    </li>
+                    <li>
+                    <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/355103156&amp;color=%23247a56&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+                    </li>
+                    <li>
+                    <iframe  scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/336136568&amp;color=%23247a56&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+                    </li>
+                </ul>       
             </div>
-        <div class="col-9">    
+        <div class="col-md-9 col-lg-9 col-sm-12 col-12">    
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-12 col-lg-4 col-sm-12 col-12">
                 <h2 id="music-title">discography</h2>
-            </div>
             </div>
             <div class="row">
             <div class="col-12">
             <div class="row">
-                <div class="col-4">
-                    <img id="disc-image" src="/Users/annieng/Brainstation/Assignments/assignment1/images/bolting-bits.jpg">
+  
+               <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                    <img class="disc-image" src="./images/bolting-bits.jpg">
+                    <figcaption>~ bolting bits ~</figcaption>
                 </div>
-                <div class="col-4">
-                    <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/come-into-my-house.jpg">
+                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                    <img class="disc-image" src="./images/come-into-my-house.jpg">
+                    <figcaption>~ come into my house ~</figcaption>
                 </div>
-                <div class="col-4">
-                    <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/familiar-boundaries2.jpg">
+                <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                    <img class="disc-image" src="./images/familiar-boundaries2.jpg">
+                    <figcaption>~ familiar boundaries ~</figcaption>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/familiar-boundaries.jpg">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                        <img class="disc-image" src="./images/familiar-boundaries.jpg">
+                        <figcaption>~ familiar boundaries </figcaption>
                     </div>
-                    <div class="col-4">
-                        <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/feel.jpg">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                        <img class="disc-image" src="./images/feel.jpg">
+                        <figcaption>~ feel ~</figcaption>
                     </div>
-                    <div class="col-4">
-                        <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/foreign-parts.jpg">
-                    </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/melodic-tools.jpg">
-                        </div>
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/seb-wildblood-sw004.jpg">
-                        </div>
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/plants.jpg">
-                        </div>
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                        <img class="disc-image" src="./images/foreign-parts.jpg">
+                        <figcaption>~ foreign-parts ~</figcaption>
                     </div>
                     <div class="row">
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/seb-wildblood-u.jpg">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/melodic-tools.jpg">
+                            <figcaption>~ melodic tools ~</figcaption>
                         </div>
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/submarine.jpg">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/seb-wildblood-sw004.jpg">
+                            <figcaption>~ sw004 ~</figcaption>
                         </div>
-                        <div class="col-4">
-                            <img src="/Users/annieng/Brainstation/Assignments/assignment1/images/seb-wildblood-jazz-vol-1-ep.png">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/plants.jpg">
+                            <figcaption>~ plants ~</figcaption>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/seb-wildblood-u.jpg">
+                            <figcaption>~ u ~</figcaption>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/submarine.jpg">
+                            <figcaption>~ submarine ~</figcaption>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-sm-12 col-12">
+                            <img class="disc-image" src="./images/seb-wildblood-jazz-vol-1-ep.png">
+                            <figcaption>~ jazz vol. 1 ~</figcaption>
                         </div>
                     </div>
             </div>
@@ -117,7 +135,28 @@
 
 </body>
 <footer>
-
+    <div class="container-fluid">
+        <ul class="footnav" id="footnav-items">
+            <li>
+                <a href="https://soundcloud.com/churchuk">church</a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/coastal-haze">coastal haze</a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/allmythoughts">all my thoughts</a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/lphnyc">let's play house</a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/omena-records">omena</a>
+            </li>
+            <li>
+                <a href="https://soundcloud.com/skintrecords">skint</a>
+            </li>
+        </ul>
+    </div>
 </footer>
 
 </html>
